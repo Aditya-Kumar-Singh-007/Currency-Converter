@@ -1,0 +1,139 @@
+* {
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: url("bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+input {
+    text-align: center;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.6);  /* semi-transparent for glass look */
+    backdrop-filter: blur(12px);     /* glassmorphism effect */
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    width: 25%;
+    min-width: 320px; 
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s ease-in-out;
+}
+
+.container:hover {
+    transform: scale(1.02); /* slight zoom */
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.amount {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#value {
+    border-radius: 50px;
+    padding: 10px;
+    width: 160px;
+    border: 2px solid #00c6ff;
+    background: rgba(255,255,255,0.1);
+    color: white;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s;
+}
+#value:focus {
+    border-color: #f40fe1;
+    box-shadow: 0 0 8px #f40fe1;
+}
+
+.dropdown {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+.from, .To {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+select {
+    border-radius: 50px;
+    padding: 8px;
+    border: 2px solid #00c6ff;
+    background: rgba(255,255,255,0.1);
+    color: white;
+    outline: none;
+    transition: 0.3s;
+}
+option{
+    background-color: black;
+}
+select:hover, select:focus {
+    border-color: #f40fe1;
+    box-shadow: 0 0 8px #f40fe1;
+}
+
+.select-container img {
+    max-width: 3.5rem;
+    margin-top: 8px;
+    border-radius: 10px;
+}
+
+.result {
+    border: 2px solid #00c6ff;
+    margin: 20px auto;
+    background: rgba(255,255,255,0.15);
+    border-radius: 20px;
+    text-align: center;
+    padding: 12px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    box-shadow: inset 0 0 8px rgba(0,198,255,0.6);
+}
+
+#button {
+    width: 180px;
+    border: none;
+    border-radius: 25px;
+    margin: 15px auto;
+    padding: 12px;
+    background: linear-gradient(90deg, #f40fe1, #00c6ff);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    transition: 0.3s;
+}
+
+#button:hover {
+    background: linear-gradient(90deg, #00c6ff, #f40fe1);
+    transform: scale(1.08);
+    box-shadow: 0px 4px 20px rgba(244, 15, 225, 0.7);
+}
