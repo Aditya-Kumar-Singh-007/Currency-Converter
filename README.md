@@ -1,58 +1,31 @@
 # Currency Converter 🌍
 
 A web-based currency converter built with HTML, CSS, and JavaScript.  
-Enter an amount, select "From" and "To" currencies, and get the current exchange rate.
+Enter an amount, select currencies, and instantly get the latest exchange rate.
 
 ---
 
-## 🔍 Table of Contents
+## Features ✅
 
-- [Demo](#demo)  
-- [Features](#features)  
-- [Technologies](#technologies)  
-- [Installation](#installation)  
-- [Usage](#usage)  
-- [Screenshots](#screenshots)  
-- [License](#license)  
-- [Author](#author)  
+- Convert between multiple world currencies using live exchange rates  
+- Dropdowns for selecting "From" and "To" currencies  
+- Country flag shown next to selected currency  
+- Responsive, modern UI with smooth effects  
 
 ---
 
-## 🚀 Demo
+## Technologies Used 🛠
 
-> *(If you deploy via GitHub Pages or other hosting, add the link here)*  
-> Example: `https://Aditya-Kumar-Singh-007.github.io/Currency-Converter/`
-
----
-
-## ✅ Features
-
-- Converts between any two supported currencies using live/external exchange rate data  
-- Dropdowns populated dynamically with currency codes  
-- Flag icons shown beside selected currencies  
-- Responsive UI with animated and styled container for good user experience  
+- **HTML** – Structure  
+- **CSS** – Styling and layout  
+- **JavaScript** – Fetching exchange rates & handling logic  
 
 ---
 
-## 🛠 Technologies Used
+## Installation ⚙️
 
-| Technology | Purpose |
-|------------|---------|
-| HTML       | Structure of the page |
-| CSS        | Styling, layout, effects |
-| JavaScript | Fetching rates, logic, interactivity |
-
----
-
-## ⚙️ Installation
-
-You can run this locally using:
+Run it locally:
 
 ```bash
-# 1. Clone the repository
 git clone https://github.com/Aditya-Kumar-Singh-007/Currency-Converter.git
-
-# 2. Navigate into the project folder
 cd Currency-Converter
-
-# 3. Open index.html in your browser
